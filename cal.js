@@ -5,8 +5,8 @@ let display2= document.querySelector('.display2');
 let colorUi= document.querySelector('.ui');
 let key= 1;
 document.addEventListener("keydown",keyboard);
-function del2(){   
 
+function del2(){   
 let Del2= document.querySelector('.delete');
 Del2.addEventListener("click",()=>{
   console.log('dlete');
@@ -386,4 +386,5 @@ colorUi.addEventListener("click",()=>{
        changeD.style.backgroundColor="grey"; 
   }
   click++;
+
 })
